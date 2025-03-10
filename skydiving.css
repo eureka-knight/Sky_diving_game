@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #87CEEB;
+    /* Sky blue */
+}
+
+canvas {
+    display: block;
+}
+
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+}
+
+#gameOver button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#usernameForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#welcomeMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.welcome {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#owner {
+    margin-left: 180px;
+    font-size: 28px;
+    text-decoration: none;
+}
